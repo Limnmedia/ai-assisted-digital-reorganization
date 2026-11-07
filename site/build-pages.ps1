@@ -14,7 +14,19 @@ $pages = @{
 }
 
 function Convert-Links([string]$html) {
-  $html -replace 'href="([A-Z0-9-]+)\.md"', 'href="$1.html"'
+  $map = @{
+    'README.md' = 'index.html'
+    'METHOD.md' = 'method.html'
+    'AI-ASSISTED-METHOD.md' = 'technical-method.html'
+    'CASE-STUDY-01.md' = 'case-study-full.html'
+    'TECHNICAL-CASE-STUDY.md' = 'technical-case-study.html'
+    'SAFETY.md' = 'safety.html'
+    'REFERENCES.md' = 'references.html'
+    'CONTRIBUTING.md' = 'contributing.html'
+    'DISCLOSURE.md' = 'disclosure.html'
+  }
+  foreach ($source in $map.Keys) { $html = $html.Replace("href=\"$source\"", "href=\"$($map[$source])\"") }
+  $html
 }
 
 foreach ($entry in $pages.GetEnumerator()) {
@@ -37,7 +49,7 @@ foreach ($entry in $pages.GetEnumerator()) {
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="site-header"><a class="brand" href="index.html">AI-Assisted Digital Reorganization</a><nav aria-label="Main navigation"><a href="start-here.html">Start here</a><a href="method.html">The method</a><a href="case-study.html">Case study</a><a href="safety.html">Safety</a></nav></header>
+<header class="site-header"><a class="brand" href="index.html">AI-Assisted Digital Reorganization</a><nav aria-label="Main navigation"><a href="start-here.html">Start here</a><a href="overview.html">Overview</a><a href="method.html">Method</a><a href="technical-method.html">Technical</a><a href="case-study.html">Case study</a><a href="safety.html">Safety</a><a href="references.html">References</a></nav></header>
 <main class="reading-page document-page">
 <p class="eyebrow">Readable HTML version</p>
 <div class="document-body">
@@ -45,7 +57,7 @@ $body
 </div>
 <p class="source-note">This page is generated from <a href="$sourceLink">$source</a>, which remains the source of truth.</p>
 </main>
-<footer class="site-footer"><a href="index.html">← Home</a><a href="references.html">References</a></footer>
+<footer class="site-footer"><div class="footer-main"><span>© 2026 Christopher Weinberg / LIMNMEDIA</span><span>Markdown is the source of truth.</span></div><nav class="footer-links" aria-label="Footer navigation"><a href="index.html">Home</a><a href="safety.html">Safety</a><a href="references.html">References</a><a href="disclosure.html">Disclosure</a><a href="https://github.com/Limnmedia/ai-assisted-digital-reorganization">Source repository</a></nav><p class="footer-credit">Written and organized with AI assistance; reviewed and approved by a human.</p></footer>
 </body>
 </html>
 "@
