@@ -4,37 +4,173 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Method | AI-Assisted Digital Reorganization</title>
-<meta name="description" content="The human and technical method for AI-assisted digital reorganization, from discovery and provenance to review and verification.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="site-header"><a class="brand" href="index.html">AI-Assisted Digital Reorganization</a><nav aria-label="Main navigation"><a href="start-here.html">Start here</a><a class="active" href="method.html">The method</a><a href="case-study.html">Case study</a><a href="safety.html">Safety</a></nav></header>
-<main class="reading-page">
-<p class="eyebrow">One pattern, two levels</p>
-<h1>The method</h1>
-<p class="lead">The human and technical guides explain the same workflow. One uses everyday language. The other adds formal terms, preservation concepts, and evidence models.</p>
-<section class="section">
-<ol class="method-list">
-<li><strong>Set the question.</strong><span>Choose a clear goal and boundary.</span></li>
-<li><strong>Discover.</strong><span>Make a read-only inventory.</span></li>
-<li><strong>Preserve history.</strong><span>Record where files came from.</span></li>
-<li><strong>Separate facts from guesses.</strong><span>Keep evidence visible.</span></li>
-<li><strong>Use independent dimensions.</strong><span>Describe source, subject, type, and state separately.</span></li>
-<li><strong>Model confidence.</strong><span>Keep uncertainty instead of forcing an answer.</span></li>
-<li><strong>Use AI for review.</strong><span>Ask for suggestions and questions.</span></li>
-<li><strong>Compare copies.</strong><span>Tell duplicates, edits, exports, and backups apart.</span></li>
-<li><strong>Propose changes.</strong><span>Write down the evidence and the plan.</span></li>
-<li><strong>Stage reversible operations.</strong><span>Copy first and test a small sample.</span></li>
-<li><strong>Verify.</strong><span>Check counts, files, dates, and checksums.</span></li>
-<li><strong>Stop and escalate.</strong><span>Pause when risk or uncertainty is high.</span></li>
-<li><strong>Relate the work to preservation practice.</strong><span>Use the right level of documentation for the collection.</span></li>
-</ol>
-</section>
-<section class="split section">
-<article class="card"><p class="eyebrow">Plain language</p><h2>METHOD.md</h2><p>A complete guide for everyday work with files, drives, backups, and photo libraries.</p><a class="text-link" href="https://github.com/Limnmedia/ai-assisted-digital-reorganization/blob/main/METHOD.md">Read the human method →</a></article>
-<article class="card accent"><p class="eyebrow">Technical detail</p><h2>AI-ASSISTED-METHOD.md</h2><p>The same pattern with manifests, fixity, provenance, relationship assertions, approval events, and preservation terminology.</p><a class="text-link" href="https://github.com/Limnmedia/ai-assisted-digital-reorganization/blob/main/AI-ASSISTED-METHOD.md">Read the technical method →</a></article>
-</section>
+<header class="site-header"><a class="brand" href="index.html">AI-Assisted Digital Reorganization</a><nav aria-label="Main navigation"><a href="start-here.html">Start here</a><a href="method.html">The method</a><a href="case-study.html">Case study</a><a href="safety.html">Safety</a></nav></header>
+<main class="reading-page document-page">
+<p class="eyebrow">Readable HTML version</p>
+<div class="document-body">
+<h1 id="method-a-careful-way-to-reorganize-digital-files-with-ai">Method: a careful way to reorganize digital files with AI</h1>
+<p>This is the complete plain-language method for AI-assisted digital reorganization. It helps a person understand a messy collection before changing it. It works for old hard drives, cloud exports, photo libraries, project folders, and backups. The technical counterpart is <a href="AI-ASSISTED-METHOD.html">AI-ASSISTED-METHOD.md</a>.</p>
+<p>The pattern is:</p>
+<p><strong>set the question -&gt; discover -&gt; keep the history -&gt; separate facts from guesses -&gt; classify -&gt; rate confidence -&gt; ask AI for help -&gt; compare -&gt; propose -&gt; stage -&gt; verify -&gt; stop when needed</strong></p>
+<h2 id="set-the-question-and-boundary">1. Set the question and boundary</h2>
+<p>Start with one clear question. For example:</p>
+<ul>
+<li>Which photo copies should I keep?</li>
+<li>What is on this old drive?</li>
+<li>Which exports belong to the same project?</li>
+<li>How can two people separate a shared photo library?</li>
+</ul>
+<p>Do not start with “clean everything.” Write down what is included, who may be affected, and what is not allowed yet. Deletion and large-scale renaming should usually be out of scope at first.</p>
+<p>Also record the date, the sources you will check, sensitive information, and who can approve changes.</p>
+<h2 id="discover-before-you-change-anything">2. Discover before you change anything</h2>
+<p>Discovery means looking without changing the source. Make a list of files and useful details:</p>
+<ul>
+<li>where the file came from;</li>
+<li>its path and name;</li>
+<li>its size, date, and format;</li>
+<li>whether it can be opened;</li>
+<li>its checksum, when useful;</li>
+<li>which folder, export, or backup contains it.</li>
+</ul>
+<p>A <strong>manifest</strong> is this list. It tells you what was seen at one time. It does not tell you what each file means.</p>
+<p>Keep five drives as five sources until you record where each item came from. Do not mix them into one folder first.</p>
+<h2 id="keep-the-file-history">3. Keep the file history</h2>
+<p><strong>Provenance</strong> means where a file came from and what happened to it. Record the original source, path, dates, copies, exports, edits, and links to related files.</p>
+<p>Useful labels include:</p>
+<ul>
+<li>exact copy;</li>
+<li>renamed copy;</li>
+<li>edited version;</li>
+<li>smaller or converted export;</li>
+<li>backup or snapshot;</li>
+<li>related but different;</li>
+<li>not known yet.</li>
+</ul>
+<p>Keep the original until you have checked the new copy. Write down important copy and export events instead of trusting memory.</p>
+<h2 id="keep-facts-separate-from-guesses">4. Keep facts separate from guesses</h2>
+<p>Use simple labels:</p>
+<ul>
+<li><strong>Observed:</strong> you directly checked it, such as a path or file size.</li>
+<li><strong>Derived:</strong> you worked it out from facts, such as two matching checksums.</li>
+<li><strong>Inferred:</strong> it is your best explanation, but it could be wrong.</li>
+<li><strong>Proposed:</strong> someone has suggested a change, but it is not approved.</li>
+<li><strong>Applied:</strong> an approved change was made and recorded.</li>
+<li><strong>Verified:</strong> you checked the result against your plan.</li>
+</ul>
+<p>For example, a filename is an observed fact. “This is the final version” is usually a guess. An AI explanation is not proof unless you can check the evidence behind it.</p>
+<h2 id="use-more-than-one-way-to-describe-a-file">5. Use more than one way to describe a file</h2>
+<p>Do not force every file into one perfect folder tree. Keep separate notes for:</p>
+<ul>
+<li>source and history;</li>
+<li>project, person, subject, or event;</li>
+<li>file type or job;</li>
+<li>state, such as draft, export, backup, or reference;</li>
+<li>links to other copies;</li>
+<li>rights or access limits;</li>
+<li>confidence and open questions.</li>
+</ul>
+<p>One photo can be from drive 3, related to a family event, an edited export, and still uncertain. Separate notes preserve that detail. A folder tree can be one useful view, not the whole truth.</p>
+<h2 id="rate-confidence-and-keep-uncertainty">6. Rate confidence and keep uncertainty</h2>
+<p><strong>Confidence</strong> means how sure you are that an interpretation is correct. It is not a promise, and it is not the same as a model’s score.</p>
+<p>You can use this simple scale:</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Meaning</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Observed</td>
+<td>Directly checked</td>
+<td>The checksum matches the list.</td>
+</tr>
+<tr>
+<td>High</td>
+<td>Several strong clues agree</td>
+<td>The path, date, contents, and your memory agree.</td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>Some clues agree</td>
+<td>The folder fits, but the version is unclear.</td>
+</tr>
+<tr>
+<td>Low</td>
+<td>Only a weak clue exists</td>
+<td>AI guessed the subject from the filename.</td>
+</tr>
+<tr>
+<td>Unknown</td>
+<td>There is not enough evidence</td>
+<td>The file cannot be opened or explained.</td>
+</tr>
+</tbody>
+</table>
+<p>Write down why you chose the level. Do not let a low-confidence label cause an automatic change.</p>
+<h2 id="use-ai-for-review-not-authority">7. Use AI for review, not authority</h2>
+<p>AI can help with a long manifest. Give it only the smallest useful fields. Ask it to suggest groups, names, or questions. Ask it to point to the rows it used.</p>
+<p>Then save the suggestion beside the evidence. A person must accept, reject, or change important suggestions.</p>
+<p>When it matters, record the date, tool or model, prompt, input fields, answer, and reviewer decision. Do not send private content to an online service unless you understand the risk and have permission.</p>
+<h2 id="compare-copies-and-related-files-carefully">8. Compare copies and related files carefully</h2>
+<p>A <strong>checksum</strong> is a digital fingerprint. If two files have the same checksum, their bytes matched when you checked them. That does not mean either file is safe to delete.</p>
+<p>Compare:</p>
+<ul>
+<li>checksum and size;</li>
+<li>dates and source history;</li>
+<li>file format and metadata;</li>
+<li>the visible or written content;</li>
+<li>edits, notes, and annotations;</li>
+<li>ownership and intended use.</li>
+</ul>
+<p>An exact duplicate, a smaller photo, an edited photo, a converted video, and a similar-looking photo are different cases. Similarity is a reason to review, not permission to delete.</p>
+<h2 id="propose-before-applying-a-change">9. Propose before applying a change</h2>
+<p>Write a proposal for each group or batch:</p>
+<pre><code class="language-text">Item or group:
+Source(s):
+Evidence:
+AI help used:
+Interpretation:
+Confidence and reason:
+Proposed action:
+Approval and approver:
+Applied at:
+Verification result:
+Open questions:
+</code></pre>
+<p>Get clear human approval before deletion, overwriting, merging, changing access, renaming many files, converting formats, or sharing files publicly. Approval to classify a file is not the same as approval to delete it.</p>
+<h2 id="stage-changes-so-you-can-undo-them">10. Stage changes so you can undo them</h2>
+<p>Prefer a new destination, copy-first batches, a manifest, and an action log. Test a small sample. Keep the source unchanged. Put uncertain items in a holding area.</p>
+<p>Before using a cloud service’s merge, duplicate, or cleanup feature, export or preserve the earlier state. Record the service, account or collection, export method, date, and any known metadata changes.</p>
+<h2 id="verify-the-result">11. Verify the result</h2>
+<p>Compare what you planned with what happened. Check:</p>
+<ul>
+<li>expected and actual file counts;</li>
+<li>checksums when available;</li>
+<li>sample files and photo albums;</li>
+<li>dates, metadata, access, and links;</li>
+<li>whether the files open in the needed apps;</li>
+<li>skipped, failed, changed, or unreadable items;</li>
+<li>whether the source is still safe.</li>
+</ul>
+<p>Run a new inventory after a large move or migration. A command that finishes is not proof that the result is correct.</p>
+<h2 id="know-when-to-stop">12. Know when to stop</h2>
+<p>Common mistakes include trusting a filename, sending a whole archive to an online AI tool, deleting while still guessing, losing the source history, using a cloud copy as the only backup, or accepting a confident AI answer without checking it.</p>
+<p>Stop and keep the current state if files are missing, checksums change without a clear reason, a service behaves in an unclear way, the AI answer conflicts with what you know, or the choice could affect rights, safety, or another person’s privacy. Record the problem and ask for expert help when needed.</p>
+<h2 id="how-this-connects-to-established-practice">13. How this connects to established practice</h2>
+<p>This method uses ideas from personal information management, digital curation, digital preservation, archival practice, digital archaeology, and human-supervised AI use. See <a href="REFERENCES.html">REFERENCES.md</a> for source material and <a href="SAFETY.html">SAFETY.md</a> for privacy and backup guidance.</p>
+<p>Manifests help you know what you have. Provenance keeps the history. Checksums help you check that files did not change. Event records show what happened. Human review handles choices that file matching cannot solve.</p>
+<p>This is a lightweight method. A personal project does not need to use a full preservation standard. For larger or more valuable collections, use the sources in <a href="REFERENCES.html">REFERENCES.md</a> and keep records that match the risk and value of the material.</p>
+
+
+</div>
+<p class="source-note">This page is generated from <a href="https://github.com/Limnmedia/ai-assisted-digital-reorganization/blob/main/METHOD.md">METHOD.md</a>, which remains the source of truth.</p>
 </main>
-<footer class="site-footer"><a href="index.html">← Home</a><a href="https://github.com/Limnmedia/ai-assisted-digital-reorganization/blob/main/TECHNICAL-CASE-STUDY.md">Read the technical case study</a></footer>
+<footer class="site-footer"><a href="index.html">← Home</a><a href="references.html">References</a></footer>
 </body>
 </html>
