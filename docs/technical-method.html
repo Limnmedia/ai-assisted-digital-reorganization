@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technical Method | AI-Assisted Digital Reorganization</title>
+<meta name="description" content="The technical method for AI-assisted digital reorganization, including manifests, provenance, confidence, verification, and preservation practice.">
+<meta name="theme-color" content="#f6f3ed">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html">AI-Assisted Digital Reorganization</a><nav aria-label="Main navigation"><a href="start-here.html">Start here</a><a href="overview.html">Overview</a><a href="method.html">Method</a><a href="technical-method.html">Technical</a><a href="case-study.html">Case study</a><a href="safety.html">Safety</a><a href="references.html">References</a></nav></header>
+<main class="reading-page document-page">
+<p class="eyebrow">Readable HTML version</p>
+<div class="document-body">
+<h1 id="ai-assisted-digital-reorganization-method-formal-workflow-and-evidence-model">AI-assisted digital reorganization method: formal workflow and evidence model</h1>
+<p>This document is the complete technical counterpart to <a href="method.html">METHOD.md</a>. It follows the same thirteen sections, in the same order, with the same examples and decision gates. The difference is vocabulary and depth: this version is intended for tool builders, researchers, archivists, and technically capable practitioners working with digital preservation, personal digital archives, and AI-assisted digital curation.</p>
+<p>For the concrete five-drive implementation account, including confirmed tools, unknowns, data flow, and verification, see <a href="technical-case-study.html">TECHNICAL-CASE-STUDY.md</a>.</p>
+<p>The workflow is:</p>
+<p><strong>scope -&gt; observe -&gt; preserve provenance -&gt; classify evidence -&gt; model dimensions -&gt; assess confidence -&gt; assist with AI -&gt; compare candidates -&gt; propose -&gt; stage -&gt; verify -&gt; stop or escalate -&gt; relate to preservation practice</strong></p>
+<h2 id="set-the-question-and-boundary">1. Set the question and boundary</h2>
+<p>Begin with a bounded research or operational question: identify a preferred photo set, inventory an aging drive, relate project exports, or separate a shared photo collection between people. Avoid an unconstrained objective such as “clean everything.”</p>
+<p>Create a scope record containing the collection boundary, source systems, observation date, affected people, sensitive-data categories, access and retention constraints, approval authority, intended output, and excluded actions. Deletion, bulk renaming, format conversion, and public release should normally be excluded from the first discovery pass.</p>
+<p>This scope record is a control document. It prevents a classification exercise from silently becoming a destructive migration.</p>
+<h2 id="discover-before-intervention">2. Discover before intervention</h2>
+<p>Discovery is an observation pass over source systems with no source mutation. Capture, as appropriate:</p>
+<ul>
+<li>source identifier, device, account, or export package;</li>
+<li>relative path, filename, and parent relationship;</li>
+<li>byte size, filesystem timestamps, media or document format, and access state;</li>
+<li>read errors, unsupported formats, and other exceptions;</li>
+<li>checksum or other fixity value;</li>
+<li>export, folder, album, or backup relationships.</li>
+</ul>
+<p>A <strong>manifest</strong> is a time-stamped inventory of those observations. It is an evidence object, not a semantic classification. A manifest can be CSV, JSON, a database export, or another durable representation, but it should be reproducible enough to explain how it was made.</p>
+<p>For five drives, retain five source identifiers. Do not flatten source namespaces before source identity has been recorded. For Google Takeout or another cloud export, retain the export package and its extraction context as separate provenance-bearing inputs.</p>
+<h2 id="preserve-provenance-and-relationships">3. Preserve provenance and relationships</h2>
+<p><strong>Provenance</strong> is the record of origin, custody, transformation, and use. At minimum, associate an item or aggregation with its original source, original path, observation time, copy or export events, transformations, and related objects.</p>
+<p>Use relationship assertions such as:</p>
+<ul>
+<li>byte-identical object;</li>
+<li>renamed or relocated copy;</li>
+<li>edited derivative;</li>
+<li>resized, transcoded, or recompressed derivative;</li>
+<li>backup, snapshot, or synchronization replica;</li>
+<li>related but non-identical object;</li>
+<li>relationship unknown.</li>
+</ul>
+<p>Represent relationship claims with their evidence and confidence. A copy event should record source, destination, time, operator or process, intended purpose, result, and verification outcome. Preserve originals until the derivative or migration target has passed review and verification.</p>
+<p>This is compatible with the concerns addressed by preservation metadata systems such as PREMIS: object identity, events, agents, rights, and environment. A personal workflow can use a lighter record, but it should not discard the same kinds of context when they matter.</p>
+<h2 id="separate-evidence-from-inference">4. Separate evidence from inference</h2>
+<p>Use typed statements or status fields:</p>
+<ul>
+<li><strong>Observed:</strong> directly measured or inspected, for example a path or byte size.</li>
+<li><strong>Derived:</strong> computed from observations, for example checksum equality.</li>
+<li><strong>Inferred:</strong> an interpretation supported by evidence but open to revision.</li>
+<li><strong>Proposed:</strong> a planned action that has not passed approval.</li>
+<li><strong>Applied:</strong> an approved action recorded as executed.</li>
+<li><strong>Verified:</strong> an applied action checked against explicit criteria.</li>
+</ul>
+<p>“The filename is <code>final</code>” is an observation. “This is the authoritative version” is an inference. A model-generated explanation is a claim with provenance, not an observation. Tool output should preserve the input evidence or stable references to it so a reviewer can reproduce the reasoning.</p>
+<h2 id="use-independent-classification-dimensions">5. Use independent classification dimensions</h2>
+<p>Model classification as a set of dimensions rather than a single mutually exclusive taxonomy. Useful dimensions include:</p>
+<ul>
+<li>source and custody provenance;</li>
+<li>project, subject, event, or person;</li>
+<li>format, file class, and functional role;</li>
+<li>lifecycle state: draft, working file, export, backup, reference, or unknown;</li>
+<li>object relationships and derivative lineage;</li>
+<li>rights, sensitivity, and access policy;</li>
+<li>confidence, reviewer state, and unresolved questions.</li>
+</ul>
+<p>An object can therefore be associated with drive 3, a family event, an edited export, restricted access, and unresolved identity at the same time. A folder hierarchy becomes a presentation or access view over richer records rather than the sole representation of meaning.</p>
+<h2 id="model-confidence-and-uncertainty">6. Model confidence and uncertainty</h2>
+<p><strong>Confidence</strong> is a reviewer-facing assessment of support for an interpretation. It is not equivalent to a model’s token probability, classifier score, or calibration claim. Store both the level and the rationale.</p>
+<p>A practical scale is:</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Meaning</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Observed</td>
+<td>Directly verified observation</td>
+<td>A checksum equals the recorded manifest value.</td>
+</tr>
+<tr>
+<td>High</td>
+<td>Multiple independent clues agree</td>
+<td>Path, date, content, and human memory agree.</td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>Evidence is suggestive but incomplete</td>
+<td>The folder fits, but version authority is unclear.</td>
+</tr>
+<tr>
+<td>Low</td>
+<td>A weak or indirect signal</td>
+<td>A model inferred subject from a filename.</td>
+</tr>
+<tr>
+<td>Unknown</td>
+<td>Insufficient or inaccessible evidence</td>
+<td>The object cannot be opened or explained.</td>
+</tr>
+</tbody>
+</table>
+<p>Confidence should not authorize destructive action by itself. A high-confidence duplicate can still have different rights, annotations, or historical value. Preserve uncertainty as a first-class state instead of forcing a false label.</p>
+<h2 id="use-ai-for-review-not-authority">7. Use AI for review, not authority</h2>
+<p>AI-assisted inventory review is useful for candidate generation over large manifests, repeated descriptions, and question formation. A controlled pipeline is:</p>
+<ol>
+<li>minimize the input to the fields needed for the task;</li>
+<li>provide stable row or object identifiers;</li>
+<li>request candidate groupings, labels, explanations, or questions;</li>
+<li>require evidence references for each candidate claim;</li>
+<li>store prompt, model or service, date, version, parameters, input scope, and output;</li>
+<li>route important candidates to human accept, reject, or revise decisions.</li>
+</ol>
+<p>Keep a prompt and model-context record when output affects later work. Include system or policy context when it materially changes the result. Treat a model response as an advisory assertion linked to input evidence, not as an approval event.</p>
+<p>For external services, record the data-handling decision: local processing, minimized metadata, redacted sample, or approved transfer. Do not transmit private content without an acceptable privacy basis and owner consent.</p>
+<h2 id="compare-duplicates-and-derivatives-carefully">8. Compare duplicates and derivatives carefully</h2>
+<p>A <strong>checksum</strong> is a content-derived fixity value. Equality indicates that the compared byte sequences matched when calculated. It does not establish preservation value, authority, rights, or safe deletion.</p>
+<p>Candidate comparison should combine:</p>
+<ul>
+<li>cryptographic fixity and byte size;</li>
+<li>source history and timestamps;</li>
+<li>format, technical metadata, and embedded metadata;</li>
+<li>visual, audio, textual, or application-level inspection;</li>
+<li>edit history, annotations, and sidecar relationships;</li>
+<li>ownership, rights, sensitivity, and intended use.</li>
+</ul>
+<p>Distinguish exact duplicates, renamed copies, resized images, edited images, transcoded media, and perceptually similar objects. Perceptual similarity is a retrieval signal for review, not an equivalence assertion and not a deletion rule.</p>
+<h2 id="propose-before-applying-an-action">9. Propose before applying an action</h2>
+<p>Represent each batch or object-group proposal with a stable record:</p>
+<pre><code class="language-text">Item or group:
+Source(s):
+Evidence references:
+AI assistance and model context:
+Interpretation:
+Confidence and rationale:
+Proposed action:
+Approval, approver, and time:
+Applied event:
+Verification result:
+Open questions and exceptions:
+</code></pre>
+<p>Require an explicit human approval event before deletion, overwrite, merge, access-policy change, bulk rename, format conversion, or public release. Separate classification approval from destructive-action approval. Store rejected proposals and unresolved cases rather than dropping them from the record.</p>
+<h2 id="stage-reversible-operations">10. Stage reversible operations</h2>
+<p>Use an exclusive destination, copy-first batches, manifests, transaction or action logs, and a quarantine state for uncertain items. Start with a representative sample. Keep source objects unchanged during staging. Make the operation recoverable or clearly document what can and cannot be undone.</p>
+<p>For cloud services, preserve the pre-change export or snapshot before merge, deduplication, or cleanup. Record provider, account or collection scope, export method, export date, transformations, metadata behavior, and known limitations. Treat cloud access layers and preservation masters as separate roles unless evidence shows otherwise.</p>
+<h2 id="verify-the-result">11. Verify the result</h2>
+<p>Verification is a comparison between the proposal, execution record, and resulting state. Define criteria before execution and check:</p>
+<ul>
+<li>expected versus actual object counts and sizes;</li>
+<li>checksums or other fixity values;</li>
+<li>representative files, albums, and application views;</li>
+<li>timestamps, metadata, permissions, links, and sidecars;</li>
+<li>successful opening or rendering in required environments;</li>
+<li>skipped, failed, changed, inaccessible, or ambiguous items;</li>
+<li>source preservation and post-operation inventory.</li>
+</ul>
+<p>Re-run discovery after material migration and retain the before/after manifests. A successful process exit is not evidence of semantic correctness or complete transfer.</p>
+<h2 id="failure-modes-stop-conditions-and-escalation">12. Failure modes, stop conditions, and escalation</h2>
+<p>Typical failures include:</p>
+<ul>
+<li>treating names or paths as semantic proof;</li>
+<li>transferring a complete private archive to an external model;</li>
+<li>coupling uncertain classification to deletion;</li>
+<li>flattening namespaces and losing provenance;</li>
+<li>treating a cloud service as the only preservation replica;</li>
+<li>accepting a fluent model answer without evidence references;</li>
+<li>retrying until error records disappear.</li>
+</ul>
+<p>Stop and preserve the current state when objects are missing, fixity changes unexpectedly, provider behavior is unclear, model output conflicts with domain knowledge, or a decision may affect rights, safety, or another person’s privacy. Record the exception and escalation path. Consult a qualified archivist, records manager, security professional, or legal adviser when the risk exceeds the project’s competence.</p>
+<h2 id="relation-to-preservation-and-archival-practice">13. Relation to preservation and archival practice</h2>
+<p>The method is a practical synthesis of established concerns in personal information management, digital curation, digital preservation, archival practice, digital archaeology, and human-supervised AI use. Manifests support collection knowledge. Provenance records support context and custody. Checksums support fixity checking. Event and approval records support accountability. Human review handles meaning, rights, and harm that byte comparison cannot resolve.</p>
+<p>The workflow is intentionally lightweight and does not claim conformance with PREMIS or another formal standard. PREMIS provides useful concepts for preservation objects, events, agents, rights, and technical context; the Digital Preservation Coalition, Library of Congress, National Archives, and NIST materials in <a href="references.html">REFERENCES.md</a> provide broader preservation and AI-risk context.</p>
+<p>For a personal collection, record depth should match value, risk, and scale. For research or institutional work, define a formal information model, retention policy, access controls, preservation events, fixity schedule, and validation plan before applying automation. See <a href="references.html">REFERENCES.md</a> for preservation and AI-governance sources and <a href="safety.html">SAFETY.md</a> for practical privacy controls.</p>
+
+
+</div>
+<p class="source-note">This page is generated from <a href="https://github.com/Limnmedia/ai-assisted-digital-reorganization/blob/main/AI-ASSISTED-METHOD.md">AI-ASSISTED-METHOD.md</a>, which remains the source of truth.</p>
+</main>
+<footer class="site-footer"><a href="index.html">← Home</a><a href="references.html">References</a></footer>
+</body>
+</html>

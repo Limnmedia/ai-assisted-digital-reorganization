@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technical Case Study | AI-Assisted Digital Reorganization</title>
+<meta name="description" content="The detailed technical account of an anonymized AI-assisted digital reorganization case, including inventories, review, verification, and limitations.">
+<meta name="theme-color" content="#f6f3ed">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html">AI-Assisted Digital Reorganization</a><nav aria-label="Main navigation"><a href="start-here.html">Start here</a><a href="overview.html">Overview</a><a href="method.html">Method</a><a href="technical-method.html">Technical</a><a href="case-study.html">Case study</a><a href="safety.html">Safety</a><a href="references.html">References</a></nav></header>
+<main class="reading-page document-page">
+<p class="eyebrow">Readable HTML version</p>
+<div class="document-body">
+<h1 id="technical-case-study-a-human-reviewed-digital-separation">Technical case study: a human-reviewed digital separation</h1>
+<p>This document records how the method was carried out in an anonymized project involving five physical drives, a Google Photos library, and a Google Takeout export. It focuses on the technical shape of the work while keeping the personal story in <a href="case-study-full.html">CASE-STUDY-01.md</a>.</p>
+<p>The record uses four labels:</p>
+<ul>
+<li><strong>Confirmed:</strong> stated in the public-safe case material or local records.</li>
+<li><strong>Anonymized:</strong> true to the work, but stripped of identifying detail.</li>
+<li><strong>Unknown:</strong> not recorded well enough to state as fact.</li>
+<li><strong>Open question:</strong> a question that remains for later work.</li>
+</ul>
+<p>No private filenames, paths, accounts, prompts, photographs, credentials, people, locations, or business details are included.</p>
+<h2 id="technical-problem">1. Technical problem</h2>
+<p>The task was to understand a shared digital collection well enough to help each person recover and preserve their own history. The material was not in one place. It included five physical drives, a Google Photos library, a Google Takeout export, project files, exports, working files, backups, and overlapping copies.</p>
+<p>Ordinary folder browsing was not enough because a folder name did not explain whether a file was an original, an edit, an export, or a backup. The same event could appear in several places. Google Takeout supplied files, but the export did not give a clear working map of folders, copies, edits, dates, and relationships.</p>
+<p>The technical problem was therefore an evidence and provenance problem, not only a filing problem. The work needed a read-first inventory, a way to compare possible relationships, a human review queue, a staged copy plan, and verification.</p>
+<h2 id="source-collections">2. Source collections</h2>
+<p>The source set consisted of:</p>
+<ul>
+<li>five physical drives, kept as separate sources during discovery;</li>
+<li>a Google Photos library used as an access layer;</li>
+<li>a Google Takeout export from that library;</li>
+<li>project files and working material;</li>
+<li>exported or converted files;</li>
+<li>backups and older snapshots;</li>
+<li>overlapping photos and other copies.</li>
+</ul>
+<p>The case material confirms the types of sources and relationships, but not exact drive models, capacities, serial numbers, account names, folder names, or file counts. Those details remain intentionally unknown and private.</p>
+<h2 id="tools-and-environment">3. Tools and environment</h2>
+<h3 id="confirmed-for-the-case">Confirmed for the case</h3>
+<p>The case used Google Photos and Google Takeout. It used ordinary file and folder inspection, inventories, copies, human comparison, and checks of sample files and albums. AI was used to help ask questions, suggest groups, summarize patterns, and identify possible relationships for review.</p>
+<h3 id="related-technical-context-not-necessarily-used-in-this-case">Related technical context — not necessarily used in this case</h3>
+<p>Separate local project records describe an adjacent local indexing pattern with these characteristics:</p>
+<ul>
+<li>Windows desktop use;</li>
+<li>Python 3.10 or newer;</li>
+<li>a command-line workflow and an optional PySide6 interface;</li>
+<li>a local SQLite index;</li>
+<li>metadata-first scanning of paths, names, sizes, dates, formats, and relationships;</li>
+<li>SHA-256 checks for completed copies;</li>
+<li>local manifests, journals, and completion summaries;</li>
+<li>optional local Ollama reasoning, off by default;</li>
+<li>no network call in the default discovery and copy workflow.</li>
+</ul>
+<p>These records show a public-safe implementation pattern. They do not prove that every one of these tools or versions was used in the personal five-drive separation. The exact operating system, application versions, scripts, spreadsheet tools, AI model, and prompt history for that case are <strong>unknown</strong> unless stated above.</p>
+<h3 id="possible-or-proposed-tools">Possible or proposed tools</h3>
+<p>Spreadsheets, shell file utilities, local indexers, checksum utilities, image viewers, and local AI tools are suitable ways to reproduce the method. They are options, not claims about what the original case used.</p>
+<h2 id="data-flow">4. Data flow</h2>
+<p>The working flow was:</p>
+<pre><code class="language-text">source drives and cloud export
+        -&gt; read-only inventory
+        -&gt; manifest and exceptions
+        -&gt; human and AI-assisted review
+        -&gt; relationship and classification proposals
+        -&gt; human approval
+        -&gt; staged copy or access-layer preparation
+        -&gt; sample checks and verification
+        -&gt; recorded result and open questions
+</code></pre>
+<p>The source material stayed in place during the first pass. The work moved from observation to interpretation, then to proposal, approval, application, and verification. The method did not use AI to approve a destructive action.</p>
+<h2 id="inventory-and-manifest">5. Inventory and manifest</h2>
+<p>The inventory recorded, where available:</p>
+<ul>
+<li>source drive, account, or export;</li>
+<li>relative path and filename;</li>
+<li>file size;</li>
+<li>observed date or filesystem timestamp;</li>
+<li>file format or extension;</li>
+<li>access state and read errors;</li>
+<li>checksum when useful;</li>
+<li>folder, album, export, or backup relationship.</li>
+</ul>
+<p>A <strong>manifest</strong> is a time-stamped list of those observations. It tells a reviewer what was seen. It does not decide what an item means.</p>
+<p>The inventory did not try to understand every file automatically. It did not treat a filename as proof of a subject, owner, final status, or right to delete. It did not replace the owner’s memory or judgment. Content interpretation, personal meaning, ownership, and rights remained review questions.</p>
+<h2 id="ai-review-process">6. AI review process</h2>
+<p>AI received minimized, reviewable information rather than a full private archive. Useful inputs could include redacted paths, file types, dates, sizes, source labels, relationship candidates, and stable row identifiers.</p>
+<p>The review questions were of this kind:</p>
+<ul>
+<li>Which items may belong to the same group?</li>
+<li>Which files deserve comparison?</li>
+<li>What questions should I ask the owner?</li>
+<li>Which folders look like exports or backups?</li>
+<li>What neutral label could describe this group?</li>
+</ul>
+<p>The useful output was a candidate group, question, or explanation. It was not a command to change files. Model output was reviewed beside the evidence. The case confirms human review, but the exact model name, version, prompt log, settings, and storage format for the original work are <strong>unknown</strong>.</p>
+<p>Information withheld from an online service included passwords, recovery codes, private keys, full personal archives, unredacted records, private photographs without approval, account identifiers, and identifying filenames or paths.</p>
+<h2 id="classification-and-relationships">7. Classification and relationships</h2>
+<p>The work kept several dimensions separate:</p>
+<ul>
+<li><strong>source:</strong> which drive, library, export, or backup held the item;</li>
+<li><strong>project or event:</strong> what larger activity or time period it might relate to;</li>
+<li><strong>subject:</strong> what person, place, object, or topic it may concern;</li>
+<li><strong>file type and role:</strong> photo, document, working file, export, reference, or backup;</li>
+<li><strong>lifecycle state:</strong> draft, working, edited, final candidate, archive, or unknown;</li>
+<li><strong>duplicate status:</strong> exact match, possible match, or not a match;</li>
+<li><strong>derivative status:</strong> edited, resized, converted, renamed, or unknown;</li>
+<li><strong>uncertainty:</strong> evidence strength, reviewer state, and open questions.</li>
+</ul>
+<p>These fields allowed one item to be from one drive, related to a shared event, an edited export, and still uncertain. A single folder tree could not carry all of that information safely.</p>
+<h2 id="duplicate-and-derivative-handling">8. Duplicate and derivative handling</h2>
+<p>The review distinguished:</p>
+<ul>
+<li><strong>exact duplicates:</strong> files with matching bytes at the time of checksum comparison;</li>
+<li><strong>renamed copies:</strong> the same or likely same content under another name;</li>
+<li><strong>edits:</strong> a changed version with a different history or appearance;</li>
+<li><strong>smaller exports:</strong> reduced-size or sharing copies;</li>
+<li><strong>converted files:</strong> files changed into another format or encoding;</li>
+<li><strong>backups:</strong> copies made to protect or snapshot earlier material;</li>
+<li><strong>visually similar images:</strong> images that look alike but may not have the same bytes, history, or meaning.</li>
+</ul>
+<p>A checksum is a digital fingerprint. Matching checksums can support an exact-duplicate claim. They do not decide which copy has the best provenance, rights, annotations, or personal meaning. Similarity was used to create a review candidate, not to authorize deletion.</p>
+<h2 id="google-takeout-and-photo-library-handling">9. Google Takeout and photo-library handling</h2>
+<p>Google Takeout provided useful files but did not provide a simple organization for the separation. Folders, copies, edits, dates, and metadata were difficult to understand together. Exported structure and service history did not always answer which photo was the preferred copy or how a relationship should be understood.</p>
+<p>Google Photos was treated as an access layer: useful for viewing and working with photos, but not automatically the only preservation copy. The work kept a source set, reviewed representative results, and remained cautious about originals, edits, dates, albums, shared items, and metadata.</p>
+<p>The exact export options, metadata changes, provider behavior, and account settings used in the original case are <strong>unknown</strong>. Those details should be checked for any new project rather than assumed from this example.</p>
+<h2 id="human-approval-points">10. Human approval points</h2>
+<p>AI did not decide:</p>
+<ul>
+<li>who owned a memory or file;</li>
+<li>what rights applied;</li>
+<li>what a photo meant to either person;</li>
+<li>whether two files were interchangeable;</li>
+<li>whether a file was the authoritative version;</li>
+<li>whether to delete, merge, overwrite, or rename;</li>
+<li>whether to publish or share;</li>
+<li>how to resolve an ambiguous relationship.</li>
+</ul>
+<p>The owner reviewed suggestions and approved small changes. Classification approval was separate from approval for deletion or other irreversible action. No automatic deletion was part of the first pass.</p>
+<h2 id="verification-and-recovery">11. Verification and recovery</h2>
+<p>Verification included, where available:</p>
+<ul>
+<li>comparing expected and actual groups or counts;</li>
+<li>checking checksums for copied files;</li>
+<li>opening representative copied files;</li>
+<li>reviewing albums and photo samples;</li>
+<li>checking dates and available metadata;</li>
+<li>checking links, access, and application behavior;</li>
+<li>recording unreadable, skipped, failed, or changed items;</li>
+<li>confirming that source material remained available;</li>
+<li>keeping unresolved cases for later review.</li>
+</ul>
+<p>The exact recovery schedule, backup testing schedule, and full before/after manifest for the personal case are <strong>unknown</strong>. The safe practice is to preserve the source, keep more than one copy, test recovery, and record failures instead of hiding them.</p>
+<h2 id="what-worked">12. What worked</h2>
+<p>Useful choices included:</p>
+<ul>
+<li>treating each drive as a separate source;</li>
+<li>starting with a read-only inventory;</li>
+<li>keeping evidence separate from interpretation;</li>
+<li>using independent classification dimensions;</li>
+<li>treating AI output as suggestions and questions;</li>
+<li>preserving original sources;</li>
+<li>using copy-first and reversible operations;</li>
+<li>requiring human approval;</li>
+<li>comparing exact duplicates separately from edits and similar images;</li>
+<li>checking representative files and albums;</li>
+<li>recording uncertainty instead of forcing a label.</li>
+</ul>
+<h2 id="what-did-not-work">13. What did not work</h2>
+<p>The Google Takeout export was difficult to use as a ready-made organization. Folder structure, copies, edits, dates, and metadata did not form a clear history by themselves.</p>
+<p>File names and folder names were weak evidence. Similar-looking photos could not safely be treated as duplicates. Metadata did not always carry the personal meaning needed for separation. A cloud service could provide access without answering every preservation question.</p>
+<p>Automation was incomplete by design. AI could suggest relationships, but it could not resolve ownership, rights, personal meaning, or difficult emotional choices. The project did not hide these limits by pretending that a confident label was a solution.</p>
+<h2 id="current-limitations">14. Current limitations</h2>
+<p>This project did not measure AI accuracy, compare models, establish a benchmark, or prove that the workflow works for every collection. It did not automate ownership decisions, emotional meaning, rights analysis, or safe deletion. It did not establish a universal folder structure.</p>
+<p>Exact tool versions, prompt records, full manifests, counts, export settings, recovery tests, and long-term preservation results for the personal case are not available in the public-safe record. Those are <strong>unknown</strong> or <strong>open questions</strong>, not facts to fill in.</p>
+<h2 id="reproduction-with-synthetic-data">15. Reproduction with synthetic data</h2>
+<p>Readers can reproduce the workflow without private files:</p>
+<ol>
+<li>Create three made-up source folders named <code>Drive-A</code>, <code>Drive-B</code>, and <code>Cloud-Export</code>.</li>
+<li>Add small text files and copied placeholder images with fictional names.</li>
+<li>Create an inventory with source, path, name, size, date, format, and a checksum.</li>
+<li>Add one renamed copy, one edited placeholder, one smaller export, and one backup folder.</li>
+<li>Ask a local or approved AI tool to suggest groups and questions from the redacted inventory only.</li>
+<li>Record the suggestion as an inference with a confidence level.</li>
+<li>Have a person approve one small group.</li>
+<li>Copy that group to a new <code>Review-Copy</code> folder.</li>
+<li>Recalculate checksums, open sample files, compare counts, and record the result.</li>
+<li>Leave the synthetic sources unchanged and record any unresolved relationship.</li>
+</ol>
+<p>This exercise demonstrates manifests, provenance, evidence, confidence, human review, copy-first work, and verification without exposing a real archive. See <a href="method.html">METHOD.md</a>, <a href="technical-method.html">AI-ASSISTED-METHOD.md</a>, and <a href="safety.html">SAFETY.md</a> for the general method and safeguards.</p>
+
+
+</div>
+<p class="source-note">This page is generated from <a href="https://github.com/Limnmedia/ai-assisted-digital-reorganization/blob/main/TECHNICAL-CASE-STUDY.md">TECHNICAL-CASE-STUDY.md</a>, which remains the source of truth.</p>
+</main>
+<footer class="site-footer"><a href="index.html">← Home</a><a href="references.html">References</a></footer>
+</body>
+</html>
