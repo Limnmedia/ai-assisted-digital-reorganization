@@ -7,7 +7,7 @@ a{color:var(--blue)}
 .brand{font-weight:750;color:var(--ink);text-decoration:none;letter-spacing:-.02em;white-space:nowrap}
 .site-header nav{display:flex;gap:20px;flex-wrap:wrap}
 .site-header nav a{text-decoration:none;color:var(--muted);font-size:.95rem;white-space:nowrap}
-.site-header nav a:hover,.site-header nav a.active{color:var(--blue);text-decoration:underline;text-underline-offset:5px}
+.site-header nav a:hover,.site-header nav a.active,.site-header nav span.active{color:var(--blue);text-decoration:underline;text-underline-offset:5px}
 a:focus-visible,.button:focus-visible{outline:3px solid var(--warm);outline-offset:4px;border-radius:4px}
 main{max-width:1160px;margin:auto;padding:0 28px 90px}
 .hero{padding:96px 0 82px;max-width:850px}
