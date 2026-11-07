@@ -84,3 +84,8 @@ This guide is for personal, family, creative, and small-organization collections
 
 The guide is a practical synthesis. It does not claim to be the first work about digital preservation, digital curation, personal information management, or AI-assisted classification. See [DISCLOSURE.md](DISCLOSURE.md) for authorship and origin.
 
+## Open reuse
+
+Christopher Weinberg is the author of this guide. You are free to share and adapt it under [CC BY 4.0](LICENSE), including for new projects, provided that you credit the author, link to the license, and say what you changed. Approval is not required by the license, but please ask before making a substantial adaptation that could be confused with the original project.
+
+
