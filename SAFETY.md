@@ -11,6 +11,30 @@ Your files may contain private memories, money records, health information, lega
 - Start with a small sample.
 - Write down what you did and when.
 
+## Know what AI can and cannot do
+
+AI is useful for work it can see and compare. It can help you:
+
+- sort a long inventory into smaller groups;
+- spot repeated names, dates, sizes, or file patterns;
+- explain an unfamiliar file type or setting;
+- suggest neutral labels and questions for review; and
+- draft a checklist or a record of what happened.
+
+AI is not reliable at deciding what a memory means, who owns a file, whether two similar photos are interchangeable, or whether a file is safe to delete. A confident answer is still a suggestion. Keep a person responsible for meaning, permission, privacy, and irreversible changes.
+
+## A safe first session
+
+For your first conversation with an AI tool:
+
+1. Ask it to read the guide and help with a read-only inventory.
+2. Share only a small, redacted sample of filenames or file details.
+3. Ask it to separate facts from guesses and list what is still unknown.
+4. Do not let it delete, move, rename, merge, upload, or overwrite anything.
+5. Save the useful questions and suggestions beside your inventory.
+
+If the AI tool cannot explain what it used as evidence, pause and check the result yourself.
+
 ## Protect private files
 
 Names and folder paths can reveal a person, place, client, illness, account, or secret. Treat file lists as private data.
@@ -46,6 +70,8 @@ Require a human check before you:
 
 “Duplicate” does not always mean “safe to remove.” Two files may have the same content but different history, notes, rights, or meaning.
 
+Approval should be specific. “Clean this up” is not enough permission for a bulk change. Before acting, name the files or group, the proposed change, the reason, and how you can undo it.
+
 ## Cloud services and photo libraries
 
 Export or copy your material before using a cloud service’s merge, cleanup, or duplicate tool. Check how it treats original photos, edits, dates, albums, shared items, and metadata.
@@ -69,4 +95,5 @@ Ask a qualified specialist when the risk is greater than your experience.
 Check filenames, paths, photos, thumbnails, location data, account names, private messages, credentials, hidden metadata, and screenshots. Replace real details with made-up or rounded details when exact values are not needed. Ask the data owner to review the final copy.
 
 For the full workflow, read [METHOD.md](METHOD.md) or the technical [AI-ASSISTED-METHOD.md](AI-ASSISTED-METHOD.md). For the project story, see [CASE-STUDY-01.md](CASE-STUDY-01.md).
+
 
