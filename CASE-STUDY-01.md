@@ -1,31 +1,49 @@
-# Case study 01: five drives and one photo library
+# Case study: five drives and one photo library
 
-This is an anonymized, generalized account of a real project pattern. It is not a public copy of anyone’s files. Names, paths, counts, dates, locations, account details, and identifying events have been omitted or rounded.
+This is an anonymized account of a real project pattern. It is not a copy of anyone’s files. Names, paths, counts, dates, places, account details, and identifying events have been removed or rounded.
 
-## Situation
+## The problem
 
-A personal collection was distributed across five physical drives and a Google Photos library. The sources contained overlapping photographs, project exports, working files, backups, and folders created under different habits. The initial problem was not to invent a perfect folder tree. It was to learn what existed, understand which copies were related, and create a dependable access layer without destroying originals.
+A personal collection was spread across five physical drives and a Google Photos library. It held photos, project exports, working files, and backups. Many items looked related, but the collection had grown in different ways over time.
 
-## Workflow
+The goal was not to invent a perfect folder tree. The goal was to learn what existed, understand which copies were related, and make a useful photo access copy without destroying the originals.
 
-1. **Bound the work.** The first pass covered inventory and photo consolidation only. Deletion and broad renaming were out of scope.
-2. **Inventory sources.** Each drive was treated as a separate source. Paths, formats, sizes, timestamps, and available checksums were recorded. Unreadable or uncertain items became exceptions rather than silent omissions.
-3. **Separate facts from interpretation.** File identity and checksum matches were evidence. Project, event, and subject labels were hypotheses until reviewed.
-4. **Compare candidates.** Exact duplicates, edited derivatives, resized exports, and visually similar images remained distinct categories. “Similar” was not treated as “safe to delete.”
-5. **Use Google Photos as an access layer.** The consolidation was handled as a controlled copy/merge process with a preserved source set and representative review. The service was not treated as the sole preservation copy.
-6. **Verify.** The result was checked by sampling albums and files, comparing expected groups, confirming that originals remained available, and recording unresolved cases for later review.
+## Why this mattered
+
+The project began during a breakup. The photo library held years of shared life, but separating one person's memories from another's felt almost impossible.
+
+Google Takeout made the problem harder. The export contained useful files, but its folders, copies, and metadata were difficult to understand and organize. It felt messy and discouraging - almost as if the history had been preserved without being made usable.
+
+The goal was not to erase the past or decide whose memories mattered more. It was to create a careful way for each person to recover, keep, and understand the parts of the collection that belonged to them.
+
+That experience changed the question. The task was no longer simply, "How do I organize these photos?" It became:
+
+> How can people use AI to make a difficult digital separation safer, clearer, and more humane?
+
+The technical method grew from that personal problem.
+
+## What happened
+
+1. **The work was limited.** The first pass covered inventory and photo consolidation. Deletion and large-scale renaming were left out.
+2. **Each drive was kept separate.** The review recorded paths, file types, sizes, dates, and checksums when available. Unreadable items became a list of problems instead of being ignored.
+3. **Facts were kept apart from guesses.** A matching checksum was evidence. A guess about a project, event, or person needed human review.
+4. **Similar photos were not treated as duplicates.** Exact copies, edited photos, smaller exports, and photos that only looked alike stayed in separate groups.
+5. **Google Photos was treated as an access copy.** The work kept a source set and checked sample results. The cloud library was not treated as the only preservation copy.
+6. **The result was checked.** The review sampled files and albums, compared expected groups, confirmed that originals remained available, and recorded open questions.
 
 ## What AI helped with
 
-AI helped turn the inventory into questions, suggest neutral group names, summarize folder patterns, and identify candidate relationships for human review. It was not trusted to decide ownership, rights, final deletion, or publication. No private filenames, credentials, or business-sensitive details belong in the public account.
+AI helped turn a long file list into questions. It suggested neutral group names, summarized folder patterns, and found possible relationships for a person to review.
 
-## What this demonstrates
+AI did not decide who owned a file, what rights applied, what to delete, or what to publish.
 
-- Multi-source organization is partly a provenance problem, not only a naming problem.
-- A cloud photo library may improve access while remaining insufficient as the only preservation strategy.
-- Independent dimensions—source, project, subject, file class, and confidence—reduce pressure to invent one brittle hierarchy.
-- A documented, reversible workflow is more valuable than a confident but opaque bulk action.
+## What this example shows
 
-## Limits and open questions
+- Organizing many sources is also a history problem. You need to know where a file came from.
+- A cloud photo library can make access easier without being a complete backup.
+- Separate fields for source, project, subject, file type, and confidence can be more useful than one rigid folder tree.
+- A slow, recorded, reversible process is safer than a fast action that no one can explain.
 
-This is one experience, not a benchmark or proof that the method works for every collection. It does not quantify AI accuracy or establish a universal best practice. Open questions include how people judge AI-generated groupings over time, which provenance details are worth the effort for different collections, and how cloud export behavior changes the preservation picture. Future contributions should add counterexamples and failed migrations, not only successful stories.
+## Limits
+
+This is one experience, not a test that proves the method works for every collection. It does not measure AI accuracy or establish a universal best practice. More cases should include mistakes, failed moves, and situations where the method was not a good fit.

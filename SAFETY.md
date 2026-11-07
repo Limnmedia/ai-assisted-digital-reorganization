@@ -1,39 +1,69 @@
-# Safety
+# Safety first
 
-Digital reorganization can cause privacy loss, broken links, accidental disclosure, or loss of the only usable copy. Treat AI output as fallible assistance and keep a person responsible for consequential decisions.
+Your files may contain private memories, money records, health information, legal papers, work files, or information about other people. Take care before you scan, copy, upload, or delete anything.
 
-## Before discovery
+## Before you begin
 
-- Identify personal, financial, health, legal, employment, confidential, and third-party material.
-- Decide who may inspect, approve, or receive results.
-- Keep an untouched source copy. Make independent backups and test that they can be read.
-- Work in a staging area and scan transferred media or files for malware.
-- Record scope, tools, dates, and exceptions.
+- Decide what you want to learn or change.
+- List the drives, accounts, phones, and folders in scope.
+- Keep one untouched copy of important material.
+- Make a second backup and test that you can open it.
+- Start with a small sample.
+- Write down what you did and when.
 
-## Before using AI
+## Protect private files
 
-- Read the current service terms for retention, training, human review, account controls, and deletion.
-- Prefer local processing for sensitive material. If external processing is necessary, minimize, redact, sample, or use synthetic metadata first.
-- Never paste passwords, recovery codes, private keys, full archives, or unreviewed personal correspondence into a chat.
-- Obtain consent before processing another person’s material.
-- Keep prompts, model name or service, date, and output provenance when they matter to a decision.
+Names and folder paths can reveal a person, place, client, illness, account, or secret. Treat file lists as private data.
 
-## Backups and provenance
+Before using an online AI service:
 
-Keep more than one copy, use different media or locations where practical, and periodically test recovery. A cloud copy can be useful but is not automatically a complete preservation strategy. Keep an inventory with the collection or in a secure, separately backed-up location. Record original source, export date, transformations, and checksums when practical.
+- read its current privacy and data-retention terms;
+- learn whether it uses your input to train models or sends it to people for review;
+- remove names and other details you do not need;
+- use a small sample or made-up data first;
+- never paste passwords, recovery codes, private keys, or a full archive into a chat;
+- get permission before working with someone else’s files.
 
-## Human approval and deletion
+For sensitive material, a local tool may reduce the risk of sending data away. It does not remove every risk. Keep the computer, backups, and reports secure.
 
-Require explicit human approval before deletion, overwrite, merge, permission changes, bulk renaming, format conversion, or public sharing. Keep rejected proposals and unresolved cases in the record. For deletion, verify that the item is not the only copy, that rights and annotations are understood, and that retention obligations allow removal. Use a recoverable holding area when feasible, then verify the intended deletion separately.
+## Keep the original safe
+
+Do not move, rename, or delete the only copy while you are still learning what it is. Copy files into a new work area. Keep the source in place until you have checked the result.
+
+For important files, keep more than one copy. Use different devices or places when practical. Test a backup by opening files from it. A cloud copy can help, but it should not be your only copy.
+
+## A person must approve important changes
+
+Require a human check before you:
+
+- delete or overwrite a file;
+- merge photo libraries;
+- change who can access a file;
+- rename many files;
+- convert file formats;
+- share files in public;
+- change files that belong to someone else.
+
+“Duplicate” does not always mean “safe to remove.” Two files may have the same content but different history, notes, rights, or meaning.
 
 ## Cloud services and photo libraries
 
-Export before a provider-side merge or cleanup. Read how the service treats originals, edits, metadata, albums, shared items, duplicates, and account removal. Preserve an independent source set and document the account, export method, date, and any known loss of metadata. A more convenient access layer is not necessarily the preservation master.
+Export or copy your material before using a cloud service’s merge, cleanup, or duplicate tool. Check how it treats original photos, edits, dates, albums, shared items, and metadata.
 
-## Stop conditions
+Use a cloud library as a convenient access copy if that helps. Keep an independent copy when the material matters.
 
-Stop and preserve the current state if files are missing, checksums change unexpectedly, a provider’s behavior is unclear, the model conflicts with human knowledge, or a decision could affect legal rights, safety, or another person’s privacy. Ask a qualified specialist when the consequences exceed the project’s competence.
+## Stop if something feels wrong
 
-## Publication gate
+Stop and keep the current state if:
 
-Before sharing a report, repository, screenshot, or case study, inspect filenames, paths, thumbnails, EXIF/GPS data, account identifiers, private correspondence, credentials, proprietary methods, and hidden metadata. Replace real values with synthetic examples or rounded quantities where exact values are unnecessary. Have the data owner review the final artifact.
+- files are missing;
+- a checksum changes without a clear reason;
+- the service’s behavior is unclear;
+- the AI answer conflicts with what you know;
+- a choice could affect legal rights, safety, or another person’s privacy.
+
+Ask a qualified specialist when the risk is greater than your experience.
+
+## Before you share the guide or a case study
+
+Check filenames, paths, photos, thumbnails, location data, account names, private messages, credentials, hidden metadata, and screenshots. Replace real details with made-up or rounded details when exact values are not needed. Ask the data owner to review the final copy.

@@ -1,17 +1,18 @@
 # Contributing
 
-Contributions should make the guide safer, clearer, more reproducible, or better sourced.
+Help make this guide safer, clearer, and easier to check.
 
 Useful contributions include:
 
-- corrections to factual claims or broken links;
-- counterexamples, failed migrations, and “this did not work” reports;
-- small, anonymized case studies with permission;
-- platform-neutral checklists and accessibility improvements;
-- primary research or established guidance that supports a specific claim.
+- corrections to facts or broken links;
+- examples of a method that failed;
+- small case studies with all private details removed;
+- plain-language and accessibility improvements;
+- strong sources that support a specific claim;
+- checklists that work across different tools.
 
-Do not submit private filenames, personal photographs, credentials, unredacted screenshots, account identifiers, or data copied from a private collection. Explain what was anonymized, confirm that you have permission to share it, and remove hidden metadata before submission.
+Do not submit private filenames, personal photos, credentials, account names, unredacted screenshots, or copied data from a private collection. Get permission before sharing a case. Remove hidden metadata from files and images.
 
-For research claims, include the source, date checked, and exact statement the source supports. Distinguish observation, inference, recommendation, and open question. Keep examples independent of any one vendor or product.
+For a research claim, give the source, the date you checked it, and the exact statement it supports. Say whether a sentence is an observed fact, a guess, a recommendation, or an open question.
 
-Open an issue before a substantial change. Small corrections may go directly through a focused pull request. Maintainers may request further anonymization or removal where privacy, safety, copyright, or security risk remains.
+Keep examples independent of any one product. Open an issue before a large change. A small correction can use a focused pull request.

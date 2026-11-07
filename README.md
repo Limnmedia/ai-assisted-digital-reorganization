@@ -1,51 +1,69 @@
 # AI-Assisted Digital Reorganization
 
-## A practical field guide for accumulated files, drives, and photo libraries
+## A safe field guide for old files and photo libraries
 
-Old hard drives, cloud accounts, exported folders, backups, and photo libraries often contain years of overlapping material. The hard part is not making a prettier folder tree. It is learning what exists, preserving context, deciding what matters, and changing it without losing the original.
+Many people have files spread across old hard drives, cloud accounts, phones, exports, and backups. Some files are copies. Some are drafts. Some may be the only copy.
 
-This guide describes a human-supervised workflow:
+The first job is not to make a perfect folder tree. The first job is to learn what you have and protect it.
 
-**discover -> interpret -> compare -> propose -> approve -> apply -> verify**
+This guide shows how a person and an AI tool can work together without giving up control.
 
-AI can help search an inventory, summarize patterns, suggest labels, cluster candidates, or turn uncertainty into questions. It should not silently rename, delete, overwrite, merge, or publish personal material.
+## Project goal
+
+Help people understand and safely reorganize accumulated digital files and photo libraries with AI while preserving context, privacy, human control, and the original material.
 
 ## Start here
 
-- [METHOD.md](METHOD.md) - the end-to-end workflow, evidence model, and reusable record.
-- [SAFETY.md](SAFETY.md) - privacy, backups, AI handling, cloud services, deletion, and publication review.
-- [CASE-STUDY-01.md](CASE-STUDY-01.md) - an anonymized five-drive and Google Photos case study.
-- [REFERENCES.md](REFERENCES.md) - authoritative preservation and AI-governance sources, with claim notes.
-- [CONTRIBUTING.md](CONTRIBUTING.md) - how to submit corrections, counterexamples, and anonymized cases.
-- [DISCOVERABILITY.md](DISCOVERABILITY.md) - repository naming, GitHub metadata, and natural search language.
-- [BOUNDARY.md](BOUNDARY.md) - the separation between the independent guide, LIMNINDEX, and private project material.
-- [LICENSE](LICENSE) - CC BY 4.0 for this documentation.
+If you are new to this topic:
 
-## Audience and scope
+- [SAFETY.md](SAFETY.md) - protect private files and make safe backups.
+- [CASE-STUDY-01.md](CASE-STUDY-01.md) - see how a five-drive photo project worked.
+- [DISCLOSURE.md](DISCLOSURE.md) - read who created this guide and where it came from.
 
-This is for people who want a cautious way to understand and consolidate personal, family, creative, or small-organization digital material. It applies whether the work is done with a spreadsheet and file utilities, a local indexer, or an AI-enabled tool. It is not a requirement to use LIMNINDEX or any particular vendor.
+If you want the full workflow:
 
-This is an independent educational document. Related LIMNMEDIA projects, including LIMNINDEX and LIMNAI, may appear as adjacent examples of research or tooling, but neither is required to use this guide. It is not an official LIMNINDEX, LIMNAI, or LIMNMEDIA product manual, and it does not imply LIMNMEDIA endorsement of every recommendation. It uses only public-safe abstractions and intentionally omits private code, schemas, filenames, business material, and unreleased product details.
+- [AI-ASSISTED-METHOD.md](AI-ASSISTED-METHOD.md) - the detailed method for careful inventory, review, and verification.
+- [METHOD.md](METHOD.md) - a short pointer to the detailed method.
+- [REFERENCES.md](REFERENCES.md) - preservation and AI-governance sources.
+- [CONTRIBUTING.md](CONTRIBUTING.md) - how to suggest a correction or share a safe example.
+- [DISCOVERABILITY.md](DISCOVERABILITY.md) - natural search language and repository suggestions.
 
-The guide covers inventory, interpretation, comparison, staged organization, provenance, review, copy-first operations, and verification. It does not prescribe a universal folder hierarchy, guarantee preservation, evaluate a particular AI service, or replace archival, legal, records-management, cybersecurity, or privacy advice.
+## What AI can do
 
-## Terminology and claims
+AI can help you:
 
-“AI-assisted digital reorganization” is a descriptive working term, not a claim that a new field has been established. The practice connects established work in personal information management, digital curation, digital preservation, archival practice, digital archaeology, and human-supervised AI use. Whether AI adoption produces a distinct cultural or research practice remains an open question.
+- search a file list;
+- group files that may be related;
+- suggest plain names for groups;
+- summarize patterns;
+- point out questions you should answer.
 
-Throughout the guide:
+AI can be wrong. A clear answer is not proof. A person should check the evidence before making an important change.
 
-- **Sourced claim** means a statement supported by a cited external authority.
-- **Local observation** means something learned from the anonymized case or repository context.
-- **Recommendation** means a cautious workflow choice made by this guide.
-- **Open question** means an unresolved issue that should not be presented as fact.
+## What AI should not do alone
 
-The guide is a practical synthesis, not a benchmark, product promise, or claim to be first.
+Do not let an AI tool delete, overwrite, merge, publish, or rename your files without your review. Do not send private files to an online service until you understand how that service handles your data.
 
-## Non-negotiable boundary
+## A simple safe pattern
 
-Keep the source collection intact until a human has reviewed the proposed result and verified the copy or migration. Preserve an inventory and change record. If the evidence is ambiguous, preserve the ambiguity and ask a better question.
+**discover -> understand -> compare -> suggest -> approve -> copy or change -> check**
 
-## Status
+Start with a small sample. Keep the original files. Make a record of what you did. Use a copy-first plan when you can.
 
-Draft public research and practice artifact. It is intentionally platform-neutral and should improve through corrections, counterexamples, and carefully anonymized case studies.
+## Plain-language terms
+
+- **Provenance** means where a file came from and what happened to it.
+- **Checksum** means a digital fingerprint used to check whether a file changed.
+- **Metadata** means information about a file, such as its date, size, or format.
+- **Confidence** means how sure we are that an interpretation is correct.
+- **Manifest** means a list of files and useful details about them.
+
+## Scope and limits
+
+This guide is for personal, family, creative, and small-organization collections. It works with simple tools, spreadsheets, local software, or AI-enabled tools. It does not replace legal, privacy, security, records-management, or archival advice.
+
+The guide is a practical synthesis. It does not claim to be the first work about digital preservation, digital curation, personal information management, or AI-assisted classification. See [DISCLOSURE.md](DISCLOSURE.md) for authorship and origin.
+
+## Search language
+
+This guide covers phrases people may use when looking for help, including “organize old hard drives with AI,” “AI digital archive organization,” and “AI-assisted digital curation.” These phrases describe the problem; they are not promises of automatic or perfect results.
