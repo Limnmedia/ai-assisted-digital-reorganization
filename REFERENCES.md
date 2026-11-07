@@ -6,7 +6,7 @@ Links checked 2026-11-07. These authoritative sources support the digital preser
 
 - Digital Preservation Coalition, [Digital Preservation Handbook](https://www.dpconline.org/handbook/) - a peer-reviewed, practical knowledge base for managing digital resources over time.
 - Digital Preservation Coalition, [Getting Started](https://www.dpconline.org/handbook/getting-started) - rapid assessment, asset registers, multiple copies, fixity checks, recovery tests, and process documentation.
-- Library of Congress, [Personal Digital Archiving](https://www.loc.gov/programs/digital-preservation/personal-digital-archiving/) - personal digital archiving resources, including organizing and preserving personal collections.
+- Library of Congress, [Preservation](https://www.loc.gov/preservation/) - preservation education and digital preservation resources from the Library of Congress.
 - Library of Congress, [PREMIS](https://www.loc.gov/standards/premis/) - a preservation-metadata standard covering digital objects, events, agents, and rights; useful background for provenance and change records.
 - National Archives, [Preserving Your Digital Memories](https://www.archives.gov/files/preservation/formats/pdf/preserving-your-digital-memories.pdf) - public guidance on selecting, organizing, copying, and checking personal digital photographs, audio, video, email, and records.
 - National Archives, [Digital Preservation](https://www.archives.gov/preservation/digital-preservation) - preservation risks and prioritization guidance for digital files.
