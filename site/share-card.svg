@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Organize old files with AI, one step at a time.</title>
+  <desc id="desc">A safety-first field guide for organizing digital files with AI while keeping human control.</desc>
+  <rect width="1200" height="630" fill="#f3f1eb"/>
+  <circle cx="1120" cy="20" r="260" fill="#e2eeeb"/>
+  <circle cx="80" cy="610" r="210" fill="#f8e5dc"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#fffdf8" stroke="#d6d9d3" stroke-width="2"/>
+  <circle cx="126" cy="126" r="8" fill="#c96950"/>
+  <text x="150" y="134" fill="#20343a" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">AI-ASSISTED DIGITAL REORGANIZATION</text>
+  <text x="126" y="232" fill="#c96950" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="3">A SIMPLE GUIDE</text>
+  <text x="126" y="310" fill="#20343a" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Organize old files</text>
+  <text x="126" y="378" fill="#20343a" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">with AI, one step at a time.</text>
+  <text x="126" y="452" fill="#5d6c70" font-family="Arial, Helvetica, sans-serif" font-size="25">Look first. Keep the originals. Decide together.</text>
+  <rect x="850" y="190" width="210" height="250" rx="20" fill="#235c66"/>
+  <text x="878" y="232" fill="#ffd0bd" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2">FIRST LOOK</text>
+  <text x="878" y="278" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">Before you</text>
+  <text x="878" y="312" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">organize</text>
+  <line x1="878" y1="338" x2="1032" y2="338" stroke="#79a4a4" stroke-width="1"/>
+  <text x="878" y="374" fill="#c9dcda" font-family="Arial, Helvetica, sans-serif" font-size="16">Final decisions</text>
+  <text x="1005" y="374" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" text-anchor="end">Human</text>
+  <text x="878" y="412" fill="#e3eef0" font-family="Arial, Helvetica, sans-serif" font-size="15">Safety first.</text>
+</svg>
+
