@@ -1,6 +1,6 @@
-# Contributing
+# Contributing to this digital reorganization guide
 
-Help make this guide safer, clearer, and easier to check.
+Help make this guide to AI-assisted digital reorganization safer, clearer, and easier to check. Start with [README.md](README.md) and the two parallel methods: [METHOD.md](METHOD.md) and [AI-ASSISTED-METHOD.md](AI-ASSISTED-METHOD.md).
 
 Useful contributions include:
 
@@ -16,3 +16,4 @@ Do not submit private filenames, personal photos, credentials, account names, un
 For a research claim, give the source, the date you checked it, and the exact statement it supports. Say whether a sentence is an observed fact, a guess, a recommendation, or an open question.
 
 Keep examples independent of any one product. Open an issue before a large change. A small correction can use a focused pull request.
+

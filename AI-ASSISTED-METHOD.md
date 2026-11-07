@@ -1,6 +1,8 @@
-# AI-assisted method: formal workflow and evidence model
+# AI-assisted digital reorganization method: formal workflow and evidence model
 
-This document is the technical counterpart to [METHOD.md](METHOD.md). It follows the same thirteen sections, in the same order, with the same examples and decision gates. The difference is vocabulary and depth: this version is intended for tool builders, researchers, archivists, and technically capable practitioners.
+This document is the complete technical counterpart to [METHOD.md](METHOD.md). It follows the same thirteen sections, in the same order, with the same examples and decision gates. The difference is vocabulary and depth: this version is intended for tool builders, researchers, archivists, and technically capable practitioners working with digital preservation, personal digital archives, and AI-assisted digital curation.
+
+For the concrete five-drive implementation account, including confirmed tools, unknowns, data flow, and verification, see [TECHNICAL-CASE-STUDY.md](TECHNICAL-CASE-STUDY.md).
 
 The workflow is:
 
@@ -180,4 +182,5 @@ The method is a practical synthesis of established concerns in personal informat
 
 The workflow is intentionally lightweight and does not claim conformance with PREMIS or another formal standard. PREMIS provides useful concepts for preservation objects, events, agents, rights, and technical context; the Digital Preservation Coalition, Library of Congress, National Archives, and NIST materials in [REFERENCES.md](REFERENCES.md) provide broader preservation and AI-risk context.
 
-For a personal collection, record depth should match value, risk, and scale. For research or institutional work, define a formal information model, retention policy, access controls, preservation events, fixity schedule, and validation plan before applying automation.
+For a personal collection, record depth should match value, risk, and scale. For research or institutional work, define a formal information model, retention policy, access controls, preservation events, fixity schedule, and validation plan before applying automation. See [REFERENCES.md](REFERENCES.md) for preservation and AI-governance sources and [SAFETY.md](SAFETY.md) for practical privacy controls.
+

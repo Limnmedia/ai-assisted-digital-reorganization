@@ -1,6 +1,6 @@
-# Method: a careful way to reorganize digital files
+# Method: a careful way to reorganize digital files with AI
 
-This method helps a person understand a messy collection before changing it. It works for old hard drives, cloud exports, photo libraries, project folders, and backups.
+This is the complete plain-language method for AI-assisted digital reorganization. It helps a person understand a messy collection before changing it. It works for old hard drives, cloud exports, photo libraries, project folders, and backups. The technical counterpart is [AI-ASSISTED-METHOD.md](AI-ASSISTED-METHOD.md).
 
 The pattern is:
 
@@ -164,8 +164,9 @@ Stop and keep the current state if files are missing, checksums change without a
 
 ## 13. How this connects to established practice
 
-This method uses ideas from personal information management, digital curation, digital preservation, archival practice, digital archaeology, and human-supervised AI use.
+This method uses ideas from personal information management, digital curation, digital preservation, archival practice, digital archaeology, and human-supervised AI use. See [REFERENCES.md](REFERENCES.md) for source material and [SAFETY.md](SAFETY.md) for privacy and backup guidance.
 
 Manifests help you know what you have. Provenance keeps the history. Checksums help you check that files did not change. Event records show what happened. Human review handles choices that file matching cannot solve.
 
 This is a lightweight method. A personal project does not need to use a full preservation standard. For larger or more valuable collections, use the sources in [REFERENCES.md](REFERENCES.md) and keep records that match the risk and value of the material.
+

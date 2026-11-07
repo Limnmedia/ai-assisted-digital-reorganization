@@ -1,6 +1,6 @@
-# References
+# References for digital preservation and AI-assisted organization
 
-Links checked 2026-11-07. These sources support the preservation, personal-archive, and AI-risk portions of the guide. They do not validate every local recommendation or establish that this guide is first.
+Links checked 2026-11-07. These authoritative sources support the digital preservation, personal digital archives, and AI-risk portions of the guide. They do not validate every local recommendation or establish that this guide is first. Read [METHOD.md](METHOD.md) for the plain-language workflow and [AI-ASSISTED-METHOD.md](AI-ASSISTED-METHOD.md) for the technical version.
 
 ## Digital preservation and personal archives
 
@@ -23,3 +23,4 @@ Links checked 2026-11-07. These sources support the preservation, personal-archi
 ## Reading and citation policy
 
 For a factual claim, prefer a stable primary or authoritative source and record the date checked. Cite the exact source that supports the claim. Mark local observations, recommendations, and open questions so readers do not mistake them for externally established facts.
+

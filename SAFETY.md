@@ -1,6 +1,6 @@
-# Safety first
+# Safety first for AI-assisted digital reorganization
 
-Your files may contain private memories, money records, health information, legal papers, work files, or information about other people. Take care before you scan, copy, upload, or delete anything.
+Your files may contain private memories, money records, health information, legal papers, work files, or information about other people. Take care before you scan, copy, upload, or delete anything. This page covers privacy, backups, cloud accounts, photo libraries, and human review.
 
 ## Before you begin
 
@@ -67,3 +67,6 @@ Ask a qualified specialist when the risk is greater than your experience.
 ## Before you share the guide or a case study
 
 Check filenames, paths, photos, thumbnails, location data, account names, private messages, credentials, hidden metadata, and screenshots. Replace real details with made-up or rounded details when exact values are not needed. Ask the data owner to review the final copy.
+
+For the full workflow, read [METHOD.md](METHOD.md) or the technical [AI-ASSISTED-METHOD.md](AI-ASSISTED-METHOD.md). For the project story, see [CASE-STUDY-01.md](CASE-STUDY-01.md).
+
