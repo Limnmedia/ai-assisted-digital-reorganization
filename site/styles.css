@@ -27,6 +27,7 @@ main{max-width:1160px;margin:auto;padding:0 28px 90px}
 .split,.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.grid{grid-template-columns:repeat(4,1fr)}
 .card.accent{background:var(--blue);color:white;border-color:var(--blue)}
 .card.accent .eyebrow,.card.accent .text-link{color:#ffd0bd}.card.accent p{color:#e3eef0}
+.prompt-card blockquote{margin:18px 0;padding:18px 22px}.prompt-card p:last-child{margin-bottom:0}
 .text-link{display:inline-block;margin-top:12px;font-weight:750;text-decoration:none}.text-link:hover{text-decoration:underline}
 .story{max-width:760px}
 .notice{border:1px solid #e9b29f;background:#fff4ed;border-radius:18px;padding:24px;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px}.notice .text-link{margin-left:0}
